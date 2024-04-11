@@ -2,6 +2,7 @@ body, html {
   height: 100%;
   margin: 0;
 }
+
 .container {
   position: relative;
   height: 100%;
@@ -32,9 +33,17 @@ display: flex; /* Используем flexbox */
 }
 
 #counter-label {
-  font-size: 32px;
+  font-size: 28px;
    background-color: #e3f1e9; /* Цвет фона */
   padding: 10px; /* Внутренний отступ */
+  border-radius: 20px; /* Радиус скругления */
+}
+
+
+#counter-title {
+  font-size: 30px;
+  background-color: #dffee9; /* Цвет фона */
+  padding: 5px; /* Внутренний отступ */
   border-radius: 20px; /* Радиус скругления */
 }
 
